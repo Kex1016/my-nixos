@@ -2,13 +2,13 @@
 
 ### my nixos
 
-<hr width="50%" />
+<hr width="30%" />
 
 A (not great) NixOS config.
 
 </div>
 
-<hr />
+<br />
 
 ## Hi!
 
