@@ -34,6 +34,10 @@ for file in "${FILES[@]}"; do
     echo "Copied $file"
 done
 
+# Get the Ezkea Cachix thingy
+echo "Getting the ezkea cachix for the anime game..."
+sudo nix-shell -p cachix --run "cachix use ezkea"
+
 # Build the new configuration
 echo "Building new configuration"
 sudo nixos-rebuild switch
